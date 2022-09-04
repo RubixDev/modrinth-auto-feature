@@ -2,19 +2,19 @@ name: 'Modrinth Auto Feature'
 description: 'GitHub Action to automatically feature the most relevant mod versions on Modrinth'
 author: RubixDev
 inputs:
-  token:
-    description: 'Token used to authenticate with Modrinth API. Use a repository secret for this'
-    required: true
-  project_id:
-    description: 'Project ID of the project to edit. You can get the ID from the sidebar on a project page under "Technical Information"'
-    required: true
-  staging:
-    description: "Whether to use Modrinth's staging API"
-    required: false
-    default: 'false'
+    token:
+        description: 'Token used to authenticate with Modrinth API. Use a repository secret for this'
+        required: true
+    project_id:
+        description: 'Project ID of the project to edit. You can get the ID from the sidebar on a project page under "Technical Information"'
+        required: true
+    staging:
+        description: "Whether to use Modrinth's staging API"
+        required: false
+        default: 'false'
 runs:
-  using: 'node16'
-  main: 'dist/index.js'
+    using: 'node16'
+    main: 'dist/index.js'
 branding:
-  icon: 'refresh-cw'
-  color: 'green'
+    icon: 'refresh-cw'
+    color: 'green'

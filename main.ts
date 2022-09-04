@@ -46,9 +46,8 @@ async function main() {
     const token = getInput('token', { required: true })
     const projectId = getInput('project_id', { required: true })
     const staging =
-        (
-            getInput('staging', { required: false }) || 'false'
-        ).toLowerCase() === 'true'
+        (getInput('staging', { required: false }) || 'false').toLowerCase() ===
+        'true'
 
     const apiUrl = staging ? STAGING_API_URL : API_URL
 

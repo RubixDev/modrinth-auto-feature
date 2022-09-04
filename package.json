@@ -1,28 +1,29 @@
 {
-  "name": "modrinth-auto-feature",
-  "version": "1.0.0",
-  "description": "GitHub Action to automatically feature the most relevant mod versions on Modrinth",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "ncc build main.ts --license licenses.txt"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RubixDev/modrinth-auto-feature.git"
-  },
-  "author": "RubixDev",
-  "license": "GPL-3.0-only",
-  "bugs": {
-    "url": "https://github.com/RubixDev/modrinth-auto-feature/issues"
-  },
-  "homepage": "https://github.com/RubixDev/modrinth-auto-feature#readme",
-  "dependencies": {
-    "@actions/core": "^1.9.1",
-    "node-fetch": "^3.2.10"
-  },
-  "devDependencies": {
-    "@vercel/ncc": "^0.34.0",
-    "prettier": "^2.7.1",
-    "typescript": "^4.8.2"
-  }
+    "name": "modrinth-auto-feature",
+    "version": "1.0.0",
+    "description": "GitHub Action to automatically feature the most relevant mod versions on Modrinth",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "ncc build main.ts --license licenses.txt",
+        "format": "prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RubixDev/modrinth-auto-feature.git"
+    },
+    "author": "RubixDev",
+    "license": "GPL-3.0-only",
+    "bugs": {
+        "url": "https://github.com/RubixDev/modrinth-auto-feature/issues"
+    },
+    "homepage": "https://github.com/RubixDev/modrinth-auto-feature#readme",
+    "dependencies": {
+        "@actions/core": "^1.9.1",
+        "node-fetch": "^3.2.10"
+    },
+    "devDependencies": {
+        "@vercel/ncc": "^0.34.0",
+        "prettier": "^2.7.1",
+        "typescript": "^4.8.2"
+    }
 }
