@@ -1,4 +1,8 @@
-# Modrinth Auto Feature action
+# !!! Archival Notice !!!
+
+The functionality of this GitHub action is already part of Modrinth itself. See RubixDev/modrinth-auto-feature#1 for more information.
+
+## Modrinth Auto Feature action
 
 A GitHub Action to automatically feature the most relevant mod versions on Modrinth.
 
